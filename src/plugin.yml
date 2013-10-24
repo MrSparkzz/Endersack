@@ -1,0 +1,18 @@
+name: Endersack
+version: 1
+main: net.sparkzz.endersack.Main
+depend: [SparkzzCore]
+author: MrSparkzz
+description: Open your enderchest anywhere you go!
+
+commands:
+    endersack:
+        description: Open your enderchest anywhere.
+
+permissions:
+    endersack.use:
+        description: Use an endersack
+        default: true
+    endersack.bypass:
+        description: Use an endersack without an enderchest
+        default: op
